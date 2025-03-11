@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-class Program
+class TaskRunSample
 {
     static void Main()
     {
@@ -22,7 +22,7 @@ class Program
     {
         for (int i = 0; i < 5; i++)
         {
-            Console.WriteLine($"Worker Thread: {i}");
+            Console.WriteLine($"Worker Task: {i}");
             Thread.Sleep(700);
         }
 
