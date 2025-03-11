@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunSample", "TaskRunSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskRunAsyncWaitSample", "TaskRunAsyncWaitSample\TaskRunAsyncWaitSample.csproj", "{46EEB9CF-1233-4432-BDA6-92705C0FC59A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearMotorSimulation", "LinearMotorSimulation\LinearMotorSimulation.csproj", "{BF41868E-5891-4B00-ABE5-4EEBDB7364AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{46EEB9CF-1233-4432-BDA6-92705C0FC59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46EEB9CF-1233-4432-BDA6-92705C0FC59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46EEB9CF-1233-4432-BDA6-92705C0FC59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF41868E-5891-4B00-ABE5-4EEBDB7364AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF41868E-5891-4B00-ABE5-4EEBDB7364AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF41868E-5891-4B00-ABE5-4EEBDB7364AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF41868E-5891-4B00-ABE5-4EEBDB7364AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
